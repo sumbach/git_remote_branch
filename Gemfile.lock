@@ -1,0 +1,33 @@
+PATH
+  remote: .
+  specs:
+    git_remote_branch (0.3.0)
+      colored (>= 1.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    colored (1.2)
+    columnize (0.3.2)
+    linecache (0.43)
+    mocha (0.9.10)
+      rake
+    rake (0.8.7)
+    redgreen (1.2.2)
+    ruby-debug (0.10.4)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.4.0)
+    ruby-debug-base (0.10.4)
+      linecache (>= 0.3)
+    thoughtbot-shoulda (2.11.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colored (>= 1.1)
+  git_remote_branch!
+  mocha
+  redgreen
+  ruby-debug
+  thoughtbot-shoulda
